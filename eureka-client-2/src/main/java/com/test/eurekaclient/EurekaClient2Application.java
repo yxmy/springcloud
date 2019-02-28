@@ -18,13 +18,13 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableHystrixDashboard
 @RestController
 @EnableCircuitBreaker
-public class EurekaClientApplication {
+public class EurekaClient2Application {
 
     @Value ("${server.port}")
     String port;
 
     public static void main(String[] args) {
-        SpringApplication.run(EurekaClientApplication.class, args);
+        SpringApplication.run(EurekaClient2Application.class, args);
     }
 
     @RequestMapping(value = "/hi")

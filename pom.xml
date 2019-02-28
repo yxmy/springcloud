@@ -18,9 +18,11 @@
     <modules>
         <module>eureka-server</module>
         <module>eureka-client</module>
+        <module>eureka-client-2</module>
         <module>service-ribbon</module>
         <module>service-feign</module>
         <module>service-zuul</module>
+        <module>service-turbine</module>
     </modules>
 
     <properties>
